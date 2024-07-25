@@ -34,9 +34,7 @@ export default function MaskPage() {
     <div className={styles.mask}>
       <div ref={container} className={styles.container}>
         <div ref={stickyMask} className={styles.stickyMask}>
-          <video autoPlay muted loop>
-            <source src="/medias/Webreel.mp4" type="video/mp4" />
-          </video>
+        <video src="https://ik.imagekit.io/sheryians/About%20Us/Webreel1_1_Y25mvxPxf.mp4?updatedAt=1710514764579" autoplay muted playsinline loop></video>
         </div>
       </div>
     </div>
