@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+.svg {
+  width: 25%;
+  position: absolute;
+  top: 20%;
+  font-weight: 900;
+  left: 39%;
+  z-index: -1;
+}
+
+.gallery {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #ffffff;
+  overflow-y: hidden;
+
+  .title {
+    position: absolute;
+    left: 50%;
+    font-family: "Indie Flower";
+    top: 45%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+
+    p {
+      color: grey;
+      margin: 0;
+      text-align: center;
+      margin-top: 10px;
+    }
+    span {
+      color: #23cfa6;
+    }
+  }
+
+  .plane {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    img {
+      position: absolute;
+      border-radius: 25px;
+    }
+
+    &:nth-of-type(1) {
+      filter: brightness(0.9);
+      img {
+        &:nth-of-type(1) {
+          left: 80%;
+          top: 40%;
+        }
+        &:nth-of-type(2) {
+          left: 5%;
+          top: 55%;
+        }
+        &:nth-of-type(3) {
+          left: 35%;
+          top: 10%;
+        }
+      }
+    }
+
+    &:nth-of-type(2) {
+      filter: brightness(0.8);
+      img {
+        &:nth-of-type(1) {
+          left: 1%;
+          top: 8%;
+        }
+        &:nth-of-type(2) {
+          left: 80%;
+          top: 6%;
+        }
+        &:nth-of-type(3) {
+          left: 60%;
+          top: 50%;
+        }
+      }
+    }
+
+    &:nth-of-type(3) {
+      filter: brightness(0.7);
+      img {
+        &:nth-of-type(1) {
+          left: 65%;
+          top: 5%;
+        }
+        &:nth-of-type(2) {
+          left: 40%;
+          top: 55%;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .gallery {
+  display: none;
+  }
+}

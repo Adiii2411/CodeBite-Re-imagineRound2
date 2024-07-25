@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+}
+
+.music {
+  width: 6rem;
+  height: 6rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 4%;
+  margin-right: 1%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #23cfa6;
+  transition: all 0.4s ease-in-out;
+  scale: 0.8;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.music:hover {
+  transform: scale(1.2);
+}
+
+.music > button {
+  border: none;
+  background: black;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-weight: 900;
+  z-index: 2;
+  font-size: 0.9rem;
+  font-family: fantasy;
+  color: #ffffff;
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.image-container.playing img {
+  animation: moveImage 3s linear infinite;
+}
+
+.image-container.paused img {
+  animation: none;
+}
+
+.image-container img[src="/medias/WavesOff.png"] {
+  width: 50%;
+  padding-left: 25%;
+}
+
+@keyframes moveImage {
+  0% {
+    left: -90%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  .music {
+    width: 3rem;
+    height: 3rem;
+
+    margin-bottom: 10%;
+    margin-right: 5%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #23cfa6;
+    transition: all 0.4s ease-in-out;
+    scale: 0.8;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  }}
+

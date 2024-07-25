@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+.landing {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+
+  img {
+    object-fit: cover;
+  }
+
+  .sliderContainer {
+    position: absolute;
+    top: calc(100vh - 450px);
+  }
+
+  .slider {
+    position: relative;
+    white-space: nowrap;
+  }
+
+  .slider p {
+    position: relative;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 230px;
+    font-weight: 500;
+    padding-right: 50px;
+  }
+
+  .slider p:nth-of-type(2) {
+    position: absolute;
+    left: 100%;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 4px #ffffff;
+    top: 0;
+  }
+
+  .description {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    color: #23cfa6;
+    font-size: 2rem;
+    font-weight: 300;
+    p {
+      margin: 0px;
+      margin-bottom: 10px;
+      font-family: "Indie Flower";
+      font-weight: 600;
+    }
+  }
+}
+
+/* Media Query for mobile view */
+@media (max-width: 768px) {
+  
+  .landing {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+  
+    img {
+      object-fit: cover;
+    }
+  
+    .sliderContainer {
+      position: absolute;
+      top: calc(100vh - 350px);
+    }
+  
+    .slider {
+      position: relative;
+      white-space: nowrap;
+    }
+  
+    .slider p {
+      position: relative;
+      margin: 0px;
+      color: rgb(255, 255, 255);
+      font-size: 150px;
+      font-weight: 100;
+      padding-right: 50px;
+      font-weight: 600;
+    }
+  
+    .slider p:nth-of-type(2) {
+      position: absolute;
+      left: 100%;
+      color: rgba(0, 0, 0, 0);
+      -webkit-text-stroke: 4px #ffffff;
+      top: 0;
+    }
+  
+   
+  }
+  
+}

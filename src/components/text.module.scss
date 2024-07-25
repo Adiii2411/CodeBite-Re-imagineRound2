@@ -1,0 +1,56 @@
+
+.div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  font-size: 6vw;
+  line-height: 0.1vw;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  font-family: "Indie Flower";
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 2px #ffffff;
+  width: 100vw;
+  height: 100vh;
+  font-weight: 100;
+}
+
+.div .img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+  filter: brightness(30%);
+}
+
+.sce {
+  color: black;
+  position: absolute;
+  box-shadow: 0 0 20px black;
+  rotate: -90deg;
+  font-size: 1.4rem;
+  padding: 5px 40px;
+  left: -8%;
+  margin-top: 25%;
+  font-family: "Indie Flower";
+  border: 2px black double;
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+
+
+ .main
+{
+  display: none;
+ }
+
+.sce {
+  display: none;
+
+}
+}

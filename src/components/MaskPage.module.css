@@ -1,0 +1,31 @@
+.container {
+  position: relative;
+  height: 300vh;
+  background-color: #ffffff;
+}
+
+.stickyMask {
+  display: flex;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  mask-image: url("/medias/sheryians1.svg");
+  mask-position: 50.2% center;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.stickyMask video {
+  height: 100%;
+  width: 120%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+
+  .mask {
+display: none; }
+}

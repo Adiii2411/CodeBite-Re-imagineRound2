@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+.page3 {
+  width: 90%;
+  margin-left: 5%;
+  border-top: 2px solid #949494;
+  border-bottom: 2px solid #949494;
+  position: relative;
+  font-family: sans-serif;
+  color: #949494;
+  height: 50vh;
+}
+
+.logo {
+  position: absolute;
+  right: 8%;
+  top: 110%;
+  height: 70%;
+  z-index: -1;
+  fill: #949494;
+}
+.logo2 {
+  position: absolute;
+  right: 7%;
+  top: 187%;
+  width: 3%;
+  z-index: -1;
+  fill: #949494;
+}
+
+.logo1 {
+  position: absolute;
+  right: 8%;
+  top: 200%;
+  height: 70%;
+  z-index: -1;
+  fill: #949494;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.img {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section {
+  width: 100%;
+  height: 90vh;
+  font-family: "Indie Flower";
+  overflow: hidden;
+}
+
+.page3 > h1 {
+  font-size: 5vw;
+  font-family: "Indie Flower";
+  text-transform: uppercase;
+  font-weight: 900;
+  right: 0;
+}
+
+.section .text {
+  width: 100%;
+  height: 70%;
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.harsh,
+.adar,
+.dhan {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 50px;
+  font-weight: 900;
+  margin-top: -5%;
+}
+.harsh {
+  margin-left: 6%;
+}
+
+.adar {
+  margin-left: 17%;
+}
+
+section .text img {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  z-index: -1;
+}
+
+.foot {
+  width: 100%;
+  height: 20%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.foot h1 {
+  width: 45%;
+  border-top: 2px solid #949494;
+}
+
+.foot img {
+  width: 100px;
+}
+@media (max-width: 430px) and (max-height: 932px) {
+  .img {
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: hidden;
+  }
+ 
+}
