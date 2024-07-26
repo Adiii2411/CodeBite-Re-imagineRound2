@@ -16,7 +16,7 @@ import gsap from "gsap";
 import Text from "../components/Text";
 import Scene1 from "../components/Scene1";
 
-const Scene = dynamic(() => import("../components/Scene"), {
+const Scene = dynamic(() => import("../components/Scene/Index"), {
   ssr: true,
 });
 
