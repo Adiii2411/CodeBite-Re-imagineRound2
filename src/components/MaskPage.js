@@ -34,7 +34,7 @@ export default function MaskPage() {
     <div className={styles.mask}>
       <div ref={container} className={styles.container}>
         <div ref={stickyMask} className={styles.stickyMask}>
-          <video AutoPlay muted loop>
+          <video autoPlay muted loop>
             <source src="/medias/Webreel.mp4" type="video/mp4" />
           </video>
         </div>
