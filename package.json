@@ -14,7 +14,6 @@
     "@react-three/fiber": "^8.16.8",
     "@studio-freight/lenis": "^1.0.42",
     "framer-motion": "^11.3.18",
-    "fsevents": "^2.3.3",
     "glob": "^11.0.0",
     "gsap": "^3.12.5",
     "howler": "^2.2.4",
@@ -30,9 +29,13 @@
     "sheryjs": "^1.0.0-beta.0.1.8",
     "three": "^0.167.0",
     "uuid": "^10.0.0",
-    "vercel": "^32.3.0"
+    "vercel": "^35.2.1"
   },
   "devDependencies": {
     "eslint-config-next": "^14.2.5"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.3"
   }
+  
 }
