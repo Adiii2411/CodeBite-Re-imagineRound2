@@ -13,7 +13,6 @@
     "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.16.8",
     "@studio-freight/lenis": "^1.0.42",
-    "eslint": "^9.7.0",
     "framer-motion": "^11.3.18",
     "fsevents": "^2.3.3",
     "glob": "^11.0.0",
