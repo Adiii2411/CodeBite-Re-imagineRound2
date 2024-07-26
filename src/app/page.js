@@ -9,14 +9,14 @@ import Projects from "../components/Projects";
 import Description from "../components/Description";
 import SlidingImages from "../components/SlidingImages";
 import Contact from "../components/Contact";
-import Gallery from "@/components/Gallery/Gallery";
+import Gallery from "../components/Gallery/Gallery";
 import MusicPlayer from "./Music";
 
 import gsap from "gsap";
-import Text from "@/components/Text";
-import Scene1 from "@/components/Scene1";
+import Text from "../components/Text";
+import Scene1 from "../components/Scene1";
 
-const Scene = dynamic(() => import("@/components/Scene"), {
+const Scene = dynamic(() => import("../components/Scene"), {
   ssr: true,
 });
 

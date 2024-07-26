@@ -10,10 +10,11 @@
   },
   "dependencies": {
     "@react-three/cannon": "^6.6.0",
-    "@react-three/drei": "^9.108.4",
+    "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.16.8",
     "@studio-freight/lenis": "^1.0.42",
-    "framer-motion": "^11.3.2",
+    "eslint": "^9.7.0",
+    "framer-motion": "^11.3.18",
     "gsap": "^3.12.5",
     "howler": "^2.2.4",
     "leva": "^0.9.35",
@@ -24,11 +25,11 @@
     "remixicon-ligatures": "^2.5.0",
     "sass": "^1.77.8",
     "scrolltrigger": "^1.0.1",
-    "sheryjs": "^1.0.0-beta.0.0.4",
-    "three": "^0.166.1"
+    "sheryjs": "^1.0.0-beta.0.1.8",
+    "three": "^0.167.0",
+    "vercel": "^32.3.0"
   },
   "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "^14.2.5"
   }
 }
